@@ -1,0 +1,458 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Roboto" , sans-serif;
+    margin: 0px;
+
+}
+
+h1{ font-size: 3.5em;}
+h2{ font-size: 2.7em;}
+h3{ font-size: 2em;}
+p{ font-size: 1.25em;}
+
+
+button{
+    font-size: 1em;
+    font-weight: bold;
+    padding: 07px 20px;
+    border-radius: 10px;
+    border: 0.5px solid rgba('0,0,0,0.5');
+    box-shadow: 2px 2px 10px;
+    color:white;
+    background:blueviolet;
+}
+
+button:hover{
+    background-color: (101, 33, 165)
+
+}
+.container{
+    max-width: 1400px;
+    margin: auto;
+}
+
+header{
+    background-color: rgb(245,245,245);
+}
+
+header .logo{
+    margin:0px;
+    padding: 25px 30px;
+    font-weight:bold;
+    color: blueviolet;
+    font-size:1.5em;
+}
+
+header .container{
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+}
+
+header nav{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-bottom: 25px;
+}
+
+header a{
+    padding: 5px 12px;
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+header a:hover{
+    color:blueviolet;
+}
+#hero{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align:center ;
+    flex-direction: column;
+    height: 90vh;
+    color: white;
+    background-image:linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+     , url("img/hero.jpg");
+     background-repeat: no-repeat;
+     background-size: cover;
+     background-position: center center;
+
+}
+#hero h1{
+    color: white;
+
+}
+
+#info{
+    text-align:center;
+    padding:100px 12px;
+}
+
+
+#lugares{background-color: 
+    rgb(30, 30, 30);
+    color: white;
+    text-align: center;
+}
+
+
+#lugares .container{
+    padding: 150px 12px;
+
+}
+#lugares h2{
+    margin-top: 0;
+    font-size: 3em;
+}
+#lugares p{
+    display: none;
+    
+    
+}
+
+#lugares .carta{
+    background-position: center center;
+    background-size: 500px;
+    padding: 50px;
+    margin: 20px;
+    border-radius: 15px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+#lugares .carta{
+    margin: 0;
+    padding:0;
+}
+
+.carta:first-child{
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url(img/obelisco-dia.jpeg);
+
+   
+
+}
+
+.carta:nth-child(2){ 
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url("img/ateneo-libreria.jpg")
+    
+
+}
+.carta:nth-child(3){
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url(img/congreso-de-la-nacion.jpg);
+    
+
+}
+.carta:nth-child(4){
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url(img/Bosques-de-Palermo-1.jpg);
+    
+
+}
+.carta:nth-child(5){
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url(img/jardin-botanico.jpg);
+    
+
+}
+.carta:nth-child(6){
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url(img/museo-bellas-artes.jpg);
+    
+
+}
+.carta:nth-child(7){
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url(img/teatro-colon.jpg);
+    
+
+}
+.carta:nth-child(8){
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url(img/cementerio-recoleta.jpg);
+    
+
+}
+.carta:nth-child(9){
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url(img/caminito.jpg);
+    
+
+}
+.carta:nth-child(10){
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url(img/zanjon-granados.jpg);
+    
+}
+#comer{
+    text-align: center;
+    background-color:rgb(245, 245, 245);
+    color: white;
+
+
+}
+#comer .container{
+    padding: 150px 12px;
+
+}
+#comer h2{
+    margin-top: 0;
+    font-size: 3em;
+    color: black;
+}
+#comer p{
+    display: none;
+}
+#comer .carta{
+    background-position: center center;
+    background-size: cover;
+    padding: 50px;
+    margin: 20px;
+    border-radius: 15px;
+    text-align: center;
+
+}
+#comer .carta:first-child{
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url(img/cafe-tortoni.jpg);
+ }
+
+#comer .carta:nth-child(2){
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url(img/la-biela.jpg);
+}
+#comer .carta:nth-child(3){
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url("img/don-julio.jpg");
+}
+#comer .carta:nth-child(4){
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url("img/imparcial.jpg");
+}
+#comer .carta:nth-child(5){
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url("img/las-violetas.jpg");
+}
+#comer .carta:nth-child(6){
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url("img/guerrin.jpg");
+}
+#comer .carta:nth-child(7){
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url("img/el-puentecito.jpg");
+}
+#comer .carta:nth-child(8){
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url("img/mercado-san-telmo.jpg");
+}
+#comer .carta:nth-child(9){
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url("img/la-pompeya.jpg");
+}
+footer{
+    background-color: rgb(235 235 235);
+
+}
+footer p{
+    margin:0;
+    padding: 12px;
+    color: rgb(110,110,110);
+}
+
+footer .container{
+    height:160px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+
+}
+@media (min-width:720px){
+    header{
+        position:fixed;
+        width:100%;
+    }
+    header .container{
+        flex-direction: row;
+        justify-content: space-between;
+    }
+        header nav{
+            flex-direction: row;
+            padding-bottom: 0;
+            padding-right: 20px;
+            align-items: center;
+            }
+        
+
+        #info .descripcion{
+            width: 50%;
+            max-width: 600px;
+            text-align: initial;
+            padding:0 30px;
+            
+        }
+         
+        #info .img-container{
+            background-image: linear-gradient(
+                0deg,
+                rgba(0,0,0,0.5),
+                rgba(0,0,0,0.5)
+            )
+            ,url("proyecto/img/ba.jpg");
+                background-size: cover;
+                background-position: center center; 
+                height: 500px;
+                width: 400px;    
+  
+        }    
+      
+        #lugares  .programas{
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+           
+        }
+        #lugares p{
+            display:block;
+            text-align: center;
+            width: 50%;
+            max-width: 600px;
+            margin-bottom: 15px;
+        }
+
+
+        #lugares h3{
+            margin-top: 0;
+            
+        }
+
+        #lugares .carta{
+            padding: 20px;
+            background-repeat: no-repeat;
+            box-shadow: 2px 2px 10px rgba(0,0,0,0.5);
+            margin: 10px;
+        }
+
+        @media (min-width:720px){
+
+            #paradasob{
+                position: fixed; 
+                width: 100%;   
+                
+            }
+            #paradasob .carta{
+                display: flex;
+                justify-content: center;
+                flex-wrap: wrap;
+                
+                
+            }
+            #comer p{
+                display:block;
+                text-align: center;
+                width: 50%;
+                max-width: 600px;
+                margin-bottom: 15px;
+                
+            }
+            #comer .carta{
+                padding: 20px;
+                background-repeat: no-repeat;
+                box-shadow: 2px 2px 10px rgba(0,0,0,0.5);
+                margin: 10px;
+            }
+        }
+    }
+
+
+
+
+
+            
